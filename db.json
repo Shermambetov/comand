@@ -1,6 +1,18 @@
 {
   "posts": [
     {
+
+      "image": "https://i.pinimg.com/564x/28/56/6d/28566d5b73d5dd8d16129b1f2606872d.jpg",
+      "title": "gggg",
+      "description": "hhhhh",
+      "id": 4
+    },
+    {
+      "image": "https://i.pinimg.com/564x/74/c6/a3/74c6a3f27ceb1270ad2260f247d228dc.jpg",
+      "title": "ttttttttttttttttt",
+      "description": "oooooooooooooooo",
+      "id": 6
+
       "image": "https://catherineasquithgallery.com/uploads/posts/2021-12/1639714094_1-catherineasquithgallery-com-p-fon-dlya-instagrama-v-rozovom-stile-1.jpg",
       "title": "Мое утро",
       "description": "В этой жизнь главное любовь",
@@ -21,6 +33,7 @@
       "title": "fgh",
       "description": "hhhhhh",
       "id": 1
+
     }
   ]
 }

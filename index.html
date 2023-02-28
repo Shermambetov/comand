@@ -289,31 +289,64 @@
   
 
 <!-- NAVBAR -->
-<div class="main-navbar d-flex flex-column navbar bg-body-tertiary">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid ">
-        <a class="navbar-brand " href="#">MAKERSGRAM</a>
-        <form class="d-flex" role="search">
-            <input
-              class="form-control me-1"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-            />
-        <button class="btn btn-outline-success btn-search" type="submit">
-            Search
-          </button>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
+
+
+<!-- NAVBAR -->
+<!-- NAVBAR -->
+
+
+<!-- <h1 class="">Makersgram</h1> -->
+<div class="main d-flex flex-column navbar" id="navbar">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid ">
+      <a class="navbar-brand " href="#">MAKERSGRAM</a>
+      <form class="d-flex" role="search">
+          <input
+            class="form-control me-1"
+            id="search"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+      <button class="btn btn-outline-success btn-search" type="submit">
+          Search
         </button>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+
+
+
+
+
+
+      <!-- ADD NEW POST -->
+     
+      <button type="button" class=" btn btn-light " data-bs-toggle="modal" data-bs-target="#exampleModal" id="btn-add-post-novbar">
+          <img src="https://static.vecteezy.com/system/resources/previews/009/344/473/original/plus-sign-transparent-free-png.png" alt="" style="width: 30px;">
+        </button>
+
+
+
+
+
+
+
+
+        <!-- MODAL -->
+
+
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
@@ -329,67 +362,100 @@
           </button>
 
 
-          <!-- MODAL -->
+
 
 
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">New publication</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">New publication</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
 
 
-        <!-- MODAL BODY -->
-        <div class="modal-add mt-5 d-flex flex-column w-100 align-items-center">
 
 
-           
-        <input
-        type="text"
-        class = 'w-50 mb-2 form-control'
-        placeholder="image URL"
-        id="image">
+
+
+
+
+      <!-- MODAL BODY -->
+      <div class="modal-add mt-5 d-flex flex-column w-100 align-items-center">
+
+
+
+
+
+
+
+
          
-
-
-          <input
-        type="text"
-        class = 'w-50 mb-2 form-control'
-        placeholder="title"
-        id="title">
-
-
-        <input  
-        type="text"
-        class = 'w-50 mb-2 form-control'
-        placeholder="description"
-        id="descr">
-
-
-    </div>
-      <!-- MODAL -->
-
-
-        <div class="modal-footer">
-          <button type="button" class="btn btn-primary btn-add-post">New Post</button>
-        </div>
-      </div>
-    </div>
-  </div>
+      <input
+      type="text"
+      class = 'w-50 mb-2 form-control'
+      placeholder="image URL"
+      id="image">
        
-          </form>
-        </div>
-      </div>
-    </nav>
+
+
+
+
+
+
+
+
+        <input
+      type="text"
+      class = 'w-50 mb-2 form-control'
+      placeholder="title"
+      id="title">
+
+
+
+
+
+
+
+
+      <input  
+      type="text"
+      class = 'w-50 mb-2 form-control'
+      placeholder="description"
+      id="descr">
+
+
+
+
+
+
+
+
   </div>
+    <!-- MODAL -->
+
+
+
+
+
+
+
+
+      <div class="modal-footer">
+        <button type="button" id = 'btn-save-post'class="btn btn-primary btn-add-post">New Post</button>
+      </div>
+    </div>
+  </div>
+</div>
+     
+        </form>
+      </div>
+    </div>
+  </nav>
+</div>
 <!-- <NAVBAR END> -->
-
-
-    <div class="content"></div>
-
-
+  <!-- Navbar End -->
+ 
 
 
 
@@ -398,6 +464,75 @@
 
 
 
+  <div class="d-flex flex-wrap justify-content-around m-5" id="content">
+     
+     
+      <div id="open-post">
+          <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">
+                  Edit Product
+                </h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <div class="d-flex flex-column w-100 align-items-center">
+                    <input
+                      type="text"
+                      class="mb-2 form-control"
+                      placeholder="image url"
+                      id="edit-image"
+                    />
+                  <input
+                    type="text"
+                    class="mb-2 form-control"
+                    placeholder="title"
+                    id="edit-title"
+                  />
+                 
+                  <input
+                    type="text"
+                    class="mb-2 form-control"
+                    placeholder="description"
+                    id="edit-descr"
+                    />
+                </div>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Close
+                </button>
+                <button type="button" id="btn-save-edit" class="btn btn-primary">
+                  Save changes
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal -->
+
+
+
+
+      </div>
+  </div>
 
 
 
@@ -408,7 +543,39 @@
 
 
 
-    <!-- Navbar End -->
+
+
+
+
+
+
+<!-- Paginition -->
+<nav aria-label="Page navigation example">
+  <ul class="pagination d-flex justify-content-center">
+    <li class="page-item prev">
+      <a class="page-link" href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <!-- <li class="page-item"><a class="page-link" href="#">1</a></li> -->
+    <div class="pagination-list d-flex"></div>
+    <li class="page-item next">
+      <a class="page-link" href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+<!-- Paginition -->
+
+
+
+
+
+
+
+
+
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
