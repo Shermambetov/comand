@@ -1,4 +1,22 @@
 {
-    "products": [
-    ]
-  }
+  "posts": [
+    {
+      "image": "https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvcGR2YW5nb2doLXNlbGYtcG9ydHJhaXQtbTAxLWpvYjY2MV8yLWwxMDBvNmVmLmpwZw.jpg?s=Z0Kzlvg5AzQyVgGA57nQNaN7rRoCdgkiuIEwRAdQTU4",
+      "title": "Vangog",
+      "description": "Vanogo loves flowers",
+      "id": 1
+    },
+    {
+      "image": "https://upload.wikimedia.org/wikipedia/ru/f/f5/The_Grand_Budapest_Hotel.jpg",
+      "title": "The Grand Budapest Hotel16+",
+      "description": "Старший консьерж втягивает юного подопечного в опасную историю. Любовь, убийство и погони под игру балалаек   Смотреть фильм",
+      "id": 2
+    },
+    {
+      "image": "asd",
+      "title": "asd",
+      "description": "asd",
+      "id": 3
+    }
+  ]
+}
