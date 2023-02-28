@@ -1,5 +1,8 @@
 body{
-    background-color: rgb(70, 70, 70);
-    text-decoration-color: white;
+    text-decoration-color: rgb(5, 28, 143);
+}
+
+#mainText{
+    color: white;
 }
 
