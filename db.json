@@ -1,6 +1,7 @@
 {
   "posts": [
     {
+
       "image": "https://i.pinimg.com/564x/28/56/6d/28566d5b73d5dd8d16129b1f2606872d.jpg",
       "title": "gggg",
       "description": "hhhhh",
@@ -11,6 +12,28 @@
       "title": "ttttttttttttttttt",
       "description": "oooooooooooooooo",
       "id": 6
+
+      "image": "https://catherineasquithgallery.com/uploads/posts/2021-12/1639714094_1-catherineasquithgallery-com-p-fon-dlya-instagrama-v-rozovom-stile-1.jpg",
+      "title": "Мое утро",
+      "description": "В этой жизнь главное любовь",
+      "id": 1
+    },
+    {
+      "image": "https://sgpress.ru/wp-content/uploads/2021/10/v8z_ZjdkFSs.jpg",
+      "title": "А я работаю ",
+      "description": "В который раз убеждаюсь что женщины умеют хранить секреты. Группами. Человек по сорок.",
+      "id": 3
+    },
+    {
+      "image": "https://fikiwiki.com/uploads/posts/2022-02/1645039240_1-fikiwiki-com-p-krasivie-kartinki-v-instagram-1.jpg",
+      "title": "Типа фоткаю ",
+      "description": "Все писс",
+      "id": 4
+      "image": "https://i.pinimg.com/564x/df/aa/74/dfaa74c7ade62f47b6e23aaa2efa7223.jpg",
+      "title": "fgh",
+      "description": "hhhhhh",
+      "id": 1
+
     }
   ]
 }
